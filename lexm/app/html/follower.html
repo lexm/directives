@@ -1,0 +1,7 @@
+<div data-ng-init="flwrCtrl.getFollowerData()">
+  <h2>Followers</h2>
+  <li data-ng-repeat="follower in flwrCtrl.followerData">
+    <p>{{follower.login}}</p>
+    <p>URL: <a href="{{follower.url}}">{{follower.url}}</a></p>
+  </li>
+</div>
